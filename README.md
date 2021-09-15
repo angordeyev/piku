@@ -61,7 +61,7 @@ There are two main ways of deploying `piku` onto a new server:
 Once you've got a fresh server, download the [piku-bootstrap](./piku-bootstrap) shell script onto your local machine and run it:
 
 ```shell
-curl https://piku.github.io/get | sh
+curl https://raw.githubusercontent.com/angordeyev/piku/master/piku-bootstrap | sh
 ```
 
 The first time it is run `piku-bootstrap` will install itself into `~/.piku-bootstrap` on your local machine and set up a virtualenv there with the dependencies it requires. It will only need to do this once.
